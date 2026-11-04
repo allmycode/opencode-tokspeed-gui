@@ -1,0 +1,39 @@
+{
+  "name": "opencode-tokspeed-gui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Live token generation speed (tok/s) for OpenCode Desktop",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-gui",
+    "tokens-per-second",
+    "tok/s",
+    "desktop"
+  ],
+  "files": [
+    "gui-experimental.cjs",
+    "server.ts",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "opencode": ">=2.2.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "test": "node test-harness.cjs"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.2.0"
+  },
+  "devDependencies": {
+    "solid-js": "^1.9.0",
+    "vite": "^7.0.0",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
