@@ -54,7 +54,7 @@ TTFT is measured from `session.execution.started` to the first delta.
 Clone the repository somewhere and point the global config at the directory:
 
 ```sh
-git clone https://github.com/<you>/opencode-tokspeed-gui.git
+git clone https://github.com/allmycode/opencode-tokspeed-gui.git
 ```
 
 `~/.config/opencode/opencode.jsonc`:
