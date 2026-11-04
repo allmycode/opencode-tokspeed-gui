@@ -5,6 +5,14 @@
   "type": "module",
   "description": "Live token generation speed (tok/s) for OpenCode Desktop",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allmycode/opencode-tokspeed-gui.git"
+  },
+  "homepage": "https://github.com/allmycode/opencode-tokspeed-gui#readme",
+  "bugs": {
+    "url": "https://github.com/allmycode/opencode-tokspeed-gui/issues"
+  },
   "keywords": [
     "opencode",
     "opencode-plugin",
